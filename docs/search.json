@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "quarto/index.html",
+    "href": "quarto/index.html",
+    "title": "Socioeconomic Impacts of Insurance on Colorectal Cancer Mortality: Insights from the National Inpatient Sample",
+    "section": "",
+    "text": "Reference Paper: Akinyemiju et al. 2016\nStudy Objective: Examine the impact of healthcare insurance on in-hospital mortality and length of stay among patients with colorectal cancer (CRC).\nData Source: Cross-sectional analysis of the National Inpatient Sample (NIS) from 2018 to 2020.\nPatient Selection: Included all hospitalized patients diagnosed with CRC.\nInsurance Categories:\n\nMedicare\nMedicaid\nPrivate\nOther\n\nPrimary Outcomes:\n\nIn-hospital all-cause mortality\nTotal hospital length of stay (days)\n\nSoftware: All analyses were performed using R Version 4.4.1 (R Foundation for Statistical Computing, Vienna, Austria)"
+  },
+  {
+    "objectID": "quarto/index.html#preamble",
+    "href": "quarto/index.html#preamble",
+    "title": "Socioeconomic Impacts of Insurance on Colorectal Cancer Mortality: Insights from the National Inpatient Sample",
+    "section": "",
+    "text": "Reference Paper: Akinyemiju et al. 2016\nStudy Objective: Examine the impact of healthcare insurance on in-hospital mortality and length of stay among patients with colorectal cancer (CRC).\nData Source: Cross-sectional analysis of the National Inpatient Sample (NIS) from 2018 to 2020.\nPatient Selection: Included all hospitalized patients diagnosed with CRC.\nInsurance Categories:\n\nMedicare\nMedicaid\nPrivate\nOther\n\nPrimary Outcomes:\n\nIn-hospital all-cause mortality\nTotal hospital length of stay (days)\n\nSoftware: All analyses were performed using R Version 4.4.1 (R Foundation for Statistical Computing, Vienna, Austria)"
+  },
+  {
+    "objectID": "quarto/index.html#baseline-table",
+    "href": "quarto/index.html#baseline-table",
+    "title": "Socioeconomic Impacts of Insurance on Colorectal Cancer Mortality: Insights from the National Inpatient Sample",
+    "section": "Baseline Table:",
+    "text": "Baseline Table:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall, N = 784,2851\nMedicare, N = 426,3751\nMedicaid, N = 90,3351\nOther, N = 20,3801\nPrivate, N = 247,1951\np-value2\n\n\n\n\nSex\n\n\n\n\n\n\n\n\n\n\n&lt;0.001\n\n\n    Female\n368,205 (47%)\n210,710 (49%)\n40,280 (45%)\n6,660 (33%)\n110,555 (45%)\n\n\n\n\n    Male\n416,060 (53%)\n215,655 (51%)\n50,055 (55%)\n13,720 (67%)\n136,630 (55%)\n\n\n\n\nAge, y\n66 (14)\n74 (10)\n54 (11)\n61 (14)\n56 (11)\n&lt;0.001\n\n\nRace\n\n\n\n\n\n\n\n\n\n\n&lt;0.001\n\n\n    White\n534,500 (70%)\n310,395 (75%)\n42,395 (48%)\n12,880 (65%)\n168,830 (70%)\n\n\n\n\n    Asian or Pacific Islander\n26,840 (3.5%)\n11,530 (2.8%)\n4,660 (5.3%)\n595 (3.0%)\n10,055 (4.2%)\n\n\n\n\n    Black\n104,745 (14%)\n52,140 (13%)\n20,170 (23%)\n2,765 (14%)\n29,670 (12%)\n\n\n\n\n    Hispanic\n74,665 (9.7%)\n31,280 (7.5%)\n16,915 (19%)\n2,495 (13%)\n23,975 (9.9%)\n\n\n\n\n    Native American\n4,185 (0.5%)\n1,985 (0.5%)\n960 (1.1%)\n240 (1.2%)\n1,000 (0.4%)\n\n\n\n\n    Other\n21,600 (2.8%)\n9,265 (2.2%)\n3,500 (4.0%)\n765 (3.9%)\n8,070 (3.3%)\n\n\n\n\nMetastasis\n340,965 (43%)\n167,625 (39%)\n46,450 (51%)\n9,775 (48%)\n117,115 (47%)\n&lt;0.001\n\n\nResidential income\n\n\n\n\n\n\n\n\n\n\n&lt;0.001\n\n\n    $1 - $51,999\n217,645 (28%)\n120,230 (29%)\n34,145 (39%)\n6,680 (34%)\n56,590 (23%)\n\n\n\n\n    $52,000 - $65,999\n204,675 (27%)\n114,310 (27%)\n23,845 (27%)\n5,395 (27%)\n61,125 (25%)\n\n\n\n\n    $66,000 - $87,999\n185,050 (24%)\n99,870 (24%)\n18,520 (21%)\n4,345 (22%)\n62,315 (26%)\n\n\n\n\n    $88,000 or more\n163,800 (21%)\n85,360 (20%)\n11,850 (13%)\n3,400 (17%)\n63,190 (26%)\n\n\n\n\nResidential region\n\n\n\n\n\n\n\n\n\n\n&lt;0.001\n\n\n    Large metro\n418,710 (54%)\n218,720 (51%)\n52,325 (58%)\n8,925 (44%)\n138,740 (56%)\n\n\n\n\n    Micropolitan\n136,490 (17%)\n81,110 (19%)\n12,945 (14%)\n4,330 (21%)\n38,105 (15%)\n\n\n\n\n    Small metro\n226,455 (29%)\n125,895 (30%)\n24,200 (27%)\n6,990 (35%)\n69,370 (28%)\n\n\n\n\nCharleston comorbidity score\n5.07 (2.52)\n5.29 (2.58)\n5.13 (2.48)\n5.09 (2.50)\n4.68 (2.39)\n&lt;0.001\n\n\nLength of stay (days)\n6.7 (7.8)\n6.9 (7.5)\n7.6 (10.9)\n6.2 (6.7)\n6.0 (7.0)\n&lt;0.001\n\n\nDied during hospitalization\n33,880 (4.3%)\n20,300 (4.8%)\n3,160 (3.5%)\n1,820 (8.9%)\n8,600 (3.5%)\n&lt;0.001\n\n\n\n1 n (%); Mean (SD)\n\n\n2 chi-squared test with Rao & Scott’s second-order correction; Wilcoxon rank-sum test for complex survey samples"
+  }
+]
